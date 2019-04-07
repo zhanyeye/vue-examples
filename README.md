@@ -1,21 +1,10 @@
 # vue-examples
 
-## Project setup
-```
+### update 2019.04.07
+
+init
+
+### Project Setup
+
+clone 项目后，下载安装项目依赖  
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
