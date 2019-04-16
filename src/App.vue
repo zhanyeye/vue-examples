@@ -2,7 +2,7 @@
   <div id="app">
     <sidebar />
     <div id="routerview">
-      <router-view />
+      <router-view v-bind:key="$route.path" />
     </div>
   </div>
 </template>

@@ -20,6 +20,26 @@ export default new Router({
     {
       path: "/example03-02",
       component: () => import("@/views/example03/Example03-02.vue")
+    },
+    {
+      path: "/example04",
+      component: () => import("@/views/example04/Example04.vue")
+    },
+    {
+      path: "/example05/students/:sid/homeworks/:hid",
+      component: () => import("@/views/example05/Example05.vue")
+    },
+    {
+      path: "/example06-01",
+      component: () => import("@/views/example06/Example06-01.vue")
+    },
+    {
+      path: "/example06-02",
+      component: () => import("@/views/example06/Example06-02.vue")
+    },
+    {
+      path: "/example06-03",
+      component: () => import("@/views/example06/Example06-03.vue")
     }
   ]
 });
