@@ -1,5 +1,9 @@
 # vue-examples
 
+### update 2019.04.21
+
+v-on；v-model；\$refs；watch；props；Bus；
+
 ### update 2019.04.16
 
 模板语法；计算属性；路由传参；key 属性与组件的复用；指令：v-text; v-if; v-on; v-bind; v-for; 模板字符串；计算属性函数；

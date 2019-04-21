@@ -43,6 +43,26 @@
           </li>
         </ul>
       </li>
+      <li>
+        双向绑定
+        <ul>
+          <li>
+            <router-link to="/example07-01">v-module双向绑定</router-link>
+          </li>
+          <li>
+            <router-link to="/example07-02">基于执行方法</router-link>
+          </li>
+          <li>
+            <router-link to="/example07-03">基于属性监听</router-link>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <router-link to="/example08">props属性向子组件传值</router-link>
+      </li>
+      <li>
+        <router-link to="/example09">基于Bus事件总线</router-link>
+      </li>
     </ul>
   </div>
 </template>
