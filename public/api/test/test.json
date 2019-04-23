@@ -1,0 +1,8 @@
+{
+  "homeworks": [
+    { "id": 1, "name": "Java基本数据类型", "deadline": "2019-04-10T09:00" },
+    { "id": 2, "name": "Java封装", "deadline": "2019-05-10T12:00" },
+    { "id": 3, "name": "Java泛型", "deadline": "2019-06-10T21:30" }
+  ],
+  "user": { "id": 1, "name": "BO" }
+}

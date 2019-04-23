@@ -1,5 +1,9 @@
 # vue-examples
 
+### update 2019.04.23
+
+axios；API；跨域；SessionStorage；token；
+
 ### update 2019.04.21
 
 v-on；v-model；\$refs；watch；props；Bus；

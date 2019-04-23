@@ -4,11 +4,15 @@
     <div id="routerview">
       <router-view v-bind:key="$route.path" />
     </div>
+    <alertdialog />
   </div>
 </template>
 <script>
 export default {
-  components: { sidebar: () => import("@/views/Sidebar") }
+  components: {
+    sidebar: () => import("@/views/Sidebar"),
+    alertdialog: () => import("@/components/AlertDialog")
+  }
 };
 </script>
 

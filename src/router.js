@@ -60,6 +60,22 @@ export default new Router({
     {
       path: "/example09",
       component: () => import("@/views/example09/Example09.vue")
+    },
+    {
+      path: "/example10",
+      component: () => import("@/views/example10/Example10.vue")
+    },
+    {
+      path: "/example11",
+      component: () => import("@/views/example11/Login.vue")
+    },
+    {
+      path: "/example11/welcome",
+      component: () => import("@/views/example11/Welcome.vue")
+    },
+    {
+      path: "/example11/addresses",
+      component: () => import("@/views/example11/AddressTable.vue")
     }
   ]
 });

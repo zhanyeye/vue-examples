@@ -63,6 +63,12 @@
       <li>
         <router-link to="/example09">基于Bus事件总线</router-link>
       </li>
+      <li>
+        <router-link to="/example10">基本axios请求</router-link>
+      </li>
+      <li>
+        <router-link to="/example11">向服务器发送请求</router-link>
+      </li>
     </ul>
   </div>
 </template>
