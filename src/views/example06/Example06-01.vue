@@ -10,6 +10,8 @@
 
     <template v-if="isUserNameLogin">
       <input placeholder="Enter your username" key="username" />
+      <!-- 当不希望复用组件时，通过key属性声明唯一性 -->
+      <!-- 所以如果不设 key 值得话，点击切换按钮，属性value 的值会保留 -->
       <br />
       <input type="password" placeholder="Enter your password" />
     </template>

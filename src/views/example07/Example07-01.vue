@@ -6,9 +6,7 @@
       <br />
       <label> <input type="radio" v-model="user.sex" value="male" />男 </label>
       <br />
-      <label>
-        <input type="radio" v-model="user.sex" value="female" />女
-      </label>
+      <label> <input type="radio" v-model="user.sex" value="female" />女</label>
       <br />
       <template v-for="(c, index) in courses">
         <label :key="`l${index}`">

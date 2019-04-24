@@ -1,6 +1,7 @@
 <template>
   <div></div>
 </template>
+//component 业务逻辑无关的封装的可重用组件，例如全局警告框
 <script>
 import bus from "@/util/Bus";
 export default {

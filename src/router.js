@@ -5,9 +5,9 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: "/example01",
+      path: "/example01", //路由路径
       // 延迟加载组件
-      component: () => import("@/views/example01/Example01.vue")
+      component: () => import("@/views/example01/Example01.vue") //路由组件
     },
     {
       path: "/example02",

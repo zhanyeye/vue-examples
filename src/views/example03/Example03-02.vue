@@ -2,6 +2,7 @@
   <div>
     <h1>生命周期回调函数</h1>
     <router-link to="/example03">路由到01</router-link>
+    <br />
     {{ user.name }}
   </div>
 </template>

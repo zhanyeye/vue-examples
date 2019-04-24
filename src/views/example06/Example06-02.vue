@@ -4,6 +4,7 @@
     <label> <input type="checkbox" @click="setAgree" />同意以上条款 </label>
     <br />
     <button v-bind:disabled="enabled">提交</button>
+    <!-- 因为 {{}} 不可以被 放在标签属性中 -->
   </div>
 </template>
 <script>
