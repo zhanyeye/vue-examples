@@ -16,6 +16,7 @@
         <td>{{ h.deadline }}</td>
         <td>
           <delbutton v-bind:homework="h" />
+          <!-- 父组件可绑定子组件属性数据 -->
         </td>
       </tr>
     </table>

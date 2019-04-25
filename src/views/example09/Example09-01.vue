@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-import bus from "@/util/Bus";
+import bus from "@/util/Bus"; //发送组件引入bus
 export default {
   data: () => ({
     user: {
@@ -17,7 +17,7 @@ export default {
   }),
   methods: {
     sendMessage() {
-      bus.$emit(bus.name, this.user.name);
+      bus.$emit(bus.name, this.user.name); //发送指定数据通知及数据
     }
   }
 };

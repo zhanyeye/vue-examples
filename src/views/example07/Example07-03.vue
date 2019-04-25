@@ -48,6 +48,7 @@ export default {
     // mount加载时会调用
     checked() {
       if (!this.agreed) {
+        //这一语句好像并没有起作用？？，checkbox的 disable 好像依然会被覆盖？
         return;
       }
       let d = this.checked.length == this.amount ? true : false;

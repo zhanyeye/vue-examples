@@ -37,10 +37,11 @@ export default {
       { id: 6, name: "系统程序设计" }
     ],
     disabled: true,
-    courseDetails: [{ course: { id: 5 }, user: { id: 1 } }],
+    courseDetails: [{ course: { id: 5 }, user: { id: 1 } }], //模拟传入的用户原选项
     checked: []
   }),
   mounted() {
+    // 模拟在后期异步将用户原选择加载
     this.checked = this.courseDetails.map(d => d.course);
   },
   methods: {

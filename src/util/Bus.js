@@ -9,3 +9,4 @@ export default new Vue({
     addresses: "addresses"
   })
 });
+//创建一个vue实例，声明事件名称
